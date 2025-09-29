@@ -6,72 +6,80 @@
   <meta name="description" content="Prime Wigs Enterprise offers premium wigs, hair extensions, and styling accessories." />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="canonical" href="https://example.com/" />
-  <link rel="stylesheet" href="./css/style_docker.css">
+  <link rel="stylesheet" href="./css/index.css">
 </head>
+
 <body>
-  <a href="#main">Skip to content</a> <br>
+    <header class="nav-header">
+        <div>
+            <img src="assets/images/logo.jpg" alt="Prime Wigs Enterprise Logo" width="80" height="80">
+            <h1>Prime Wigs Enterprise</h1>
+        </div>
 
-  <header>
-    <img src="assets/images/logo.jpg" alt="Prime Wigs Enterprise Logo" width="80" height="80">
-    <h1>Prime Wigs Enterprise</h1>
-
-    <nav aria-label="Primary">
-      <ul>
-        <li><a href="index.html" aria-current="page">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="media.html">Media</a></li>
-        <li><a href="extras.html">Extras</a></li>
-      </ul>
-    </nav>
+        <nav aria-label="Primary">
+        <ul>
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="extras.html">Extras</a></li>
+        </ul>
+        </nav>
   </header>
+  <main id="main" class="main">
+    <section class="hero-section">
+        <header class="hero-header">
+            <h2>
+                 <span class="hero-small">Welcome to </span> 
+                 <span class="hero-big">Prime Wigs </span> 
+                 <span class="hero-medium">where beauty meets Confidence</span> 
+            </h2>
+            <p class="label">In business since<time datetime="2025-09-14"> September 14, 2020</time></p>
+            <button class="cta button">Learn More</button>
+        </header>
+        <div class="hero-image">
+            <img src="./assets/images/hero_curly.jpg" alt="">
+        </div>
+    </section>
 
-  <main id="main">
-    <article>
-      <header>
-        <h2>Welcome to Prime WIGS Enterprise where beauty meets Confidence</h2>
-        <p><time datetime="2025-09-14">September 14, 2025</time></p>
-      </header>
-
-      <section>
+    <section>
         <h3>Why Choose Prime Wigs?</h3>
         <p><mark>High-quality wigs</mark> that blend naturally and enhance confidence.</p>
         <p>Shortcut for ordering: <kbd>Ctrl</kbd> + <kbd>P</kbd> for print-ready catalogs.</p>
         <p>Code sample for product tags: <code>&lt;wig-premium&gt;</code>.</p>
       </section>
 
-     <section>
-  <h3>Our Featured Collections</h3>
-  <div>
-    <figure>
-      <picture>
-        <source srcset="assets/images/Dark root blonde wig.jpg" media="(min-width: 1000px)">
-        <source srcset="assets/images/Dark root blonde wig.jpg" media="(min-width: 600px)">
-        <img src="assets/images/Dark root blonde wig.jpg" alt="Curly blonde wig" width="200">
-      </picture>
-      <figcaption>Glam Night Collection</figcaption>
-    </figure>
+    <section class = "collection-section">
+        <div class="colection-text">
+            <h3 class="h3">Our Featured Collections</h3>
+            <p>Explore our curated collections designed to highlight your style and confidence. 
+                Each piece blends quality with elegance for everyday beauty </p>
+        </div>
+        <div class="colection-images">
+            <figure>
+            <picture>
+                <img src="assets/images/Dark root blonde wig.jpg" alt="Curly blonde wig" >
+            </picture>
+            <figcaption> Glam Night Collection </figcaption>
+            </figure>
 
-    <figure>
-      <picture>
-        <source srcset="assets/images/dark root bob wig.jpg" media="(min-width: 1000px)">
-        <source srcset="assets/images/dark root bob wig.jpg" media="(min-width: 600px)">
-        <img src="assets/images/dark root bob wig.jpg" alt="Bob brown wig" width="200">
-      </picture>
-      <figcaption>Everyday Elegance Collection</figcaption>
-    </figure>
+            <figure>
+            <picture>
+                <img src="assets/images/dark root bob wig.jpg" alt="Bob brown wig">
+            </picture>
+            <figcaption> Everyday Elegance Collection </figcaption>
+            </figure>
 
-    <figure>
-      <picture>
-        <source srcset="assets/images/funmi bob.jpg" media="(min-width: 1000px)">
-        <source srcset="assets/images/funmi bob.jpg" media="(min-width: 600px)">
-        <img src="assets/images/funmi bob.jpg" alt="Funmi closure wig" width="200">
-      </picture>
-      <figcaption>Professional Chic Collection</figcaption>
-    </figure>
-  </div>
-</section>
+            <figure>
+            <picture>
+                <img src="assets/images/funmi bob.jpg" alt="Funmi closure wig">
+            </picture>
+            <figcaption>Professional Chic Collection</figcaption>
+            </figure>
+        </div>
+    </section>
 
-      <section id="more-info">
+    <article> 
+    <section id="more-info">
         <h3>Customer Promise</h3>
         <p><samp>Guaranteed comfort and durability.</samp></p>
         <blockquote cite="https://primewigs.example.com">
@@ -89,8 +97,8 @@
         <li><time datetime="2015">2015</time> was the year Prime Wigs started serving clients worldwide.</li>
       </ul>
       <p><mark>“A wig is not just hair,it is confidence, style, and a new story every day.”</mark></p>
-
       </aside>
+      </article>
 
       <footer>
         <address>
@@ -104,6 +112,7 @@
   <footer>
     <p>&copy; <time datetime="2025">2025</time> Prime Wigs Enterprise. All rights reserved.</p>
   </footer>
+   </main>
 </body>
 </html>
 
